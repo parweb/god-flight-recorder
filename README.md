@@ -10,6 +10,7 @@ writing and reading Markdown in a shared directory. No framework, no orchestrati
 - **Live control room:** https://1h-money-store.vercel.app/live
 - **The store it runs:** https://1h-money-store.vercel.app/?utm_source=github&utm_medium=flightrecorder
 - **Open-source tool it shipped:** https://github.com/parweb/landing-copy-grader
+- ☞ **Run your own org:** https://github.com/parweb/claude-swarm-starter — the starter kit extracted from this system (templates + quickstart, MIT)
 
 ## What this is
 
