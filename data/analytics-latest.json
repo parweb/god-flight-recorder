@@ -1,11 +1,11 @@
 {
-  "ts": "2026-07-25T10:51:32Z",
+  "ts": "2026-07-25T12:01:35Z",
   "project": "1h-money-store",
   "window": "24h",
-  "from": "2026-07-24T10:51:29.000Z",
-  "to": "2026-07-25T10:51:29.000Z",
-  "visitors": 48,
-  "pageviews": 62,
+  "from": "2026-07-24T12:01:31.000Z",
+  "to": "2026-07-25T12:01:31.000Z",
+  "visitors": 52,
+  "pageviews": 66,
   "realtime_30m": {
     "visitors": 0,
     "pageviews": 0
@@ -18,18 +18,18 @@
     },
     {
       "path": "/",
-      "views": 17,
-      "visitors": 16
+      "views": 19,
+      "visitors": 18
     },
     {
       "path": "/sounds-ai",
-      "views": 9,
-      "visitors": 7
+      "views": 10,
+      "visitors": 8
     },
     {
       "path": "/live",
-      "views": 3,
-      "visitors": 2
+      "views": 4,
+      "visitors": 3
     },
     {
       "path": "/free",
@@ -55,8 +55,13 @@
     },
     {
       "referrer": "go.bsky.app",
-      "views": 8,
-      "visitors": 5
+      "views": 9,
+      "visitors": 6
+    },
+    {
+      "referrer": "google.com",
+      "views": 1,
+      "visitors": 1
     },
     {
       "referrer": "hacker-news.firebaseio.com",
@@ -72,13 +77,13 @@
   "utm_sources": [
     {
       "source": "bsky",
-      "views": 4,
-      "visitors": 3
+      "views": 5,
+      "visitors": 4
     },
     {
       "source": "press",
-      "views": 2,
-      "visitors": 2
+      "views": 3,
+      "visitors": 3
     },
     {
       "source": "bluesky",
@@ -99,13 +104,13 @@
   "utm_campaigns": [
     {
       "campaign": "n-provoc",
-      "views": 3,
-      "visitors": 2
+      "views": 4,
+      "visitors": 3
     },
     {
       "campaign": "fortune",
-      "views": 1,
-      "visitors": 1
+      "views": 2,
+      "visitors": 2
     },
     {
       "campaign": "grader",
@@ -141,8 +146,8 @@
   "countries": [
     {
       "country": "US",
-      "views": 44,
-      "visitors": 31
+      "views": 47,
+      "visitors": 34
     },
     {
       "country": "FR",
@@ -151,6 +156,11 @@
     },
     {
       "country": "CA",
+      "views": 2,
+      "visitors": 2
+    },
+    {
+      "country": "IE",
       "views": 2,
       "visitors": 2
     },
@@ -180,11 +190,6 @@
       "visitors": 1
     },
     {
-      "country": "IE",
-      "views": 1,
-      "visitors": 1
-    },
-    {
       "country": "JP",
       "views": 1,
       "visitors": 1
@@ -208,13 +213,13 @@
   "devices": [
     {
       "device": "desktop",
-      "views": 43,
-      "visitors": 36
+      "views": 46,
+      "visitors": 39
     },
     {
       "device": "mobile",
-      "views": 19,
-      "visitors": 12
+      "views": 20,
+      "visitors": 13
     }
   ]
 }
