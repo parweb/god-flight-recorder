@@ -1,14 +1,23 @@
 # PR-STATUS — généré par pr-watch.yml
 
-Dernière mise à jour: 2026-07-25T00:44Z — run 30137004976
+Dernière mise à jour: 2026-07-25T08:26Z — run 30151099050
 
 ## PRs ouvertes (auteur parweb, repos externes)
 
 | PR | titre | maj |
 |---|---|---|
+| [dalisoft/awesome-ai-coding#81](https://github.com/dalisoft/awesome-ai-coding/pull/81) | Add mcp-ai-slop-checker to Tools | 2026-07-25T05:18:24Z |
+| [punkpeye/awesome-mcp-servers#10875](https://github.com/punkpeye/awesome-mcp-servers/pull/10875) | Add parweb/mcp-ai-slop-checker to Other Tools and Integrations 🤖🤖🤖 | 2026-07-25T04:17:09Z |
+| [aliammari1/awesome-ai-tools#137](https://github.com/aliammari1/awesome-ai-tools/pull/137) | Add Does My Text Sound AI? to Writing Assistants | 2026-07-25T02:54:15Z |
+| [eudk/awesome-ai-tools#463](https://github.com/eudk/awesome-ai-tools/pull/463) | Add two offline AI-writing checkers to Additional AI and Productivity  | 2026-07-25T02:51:58Z |
+| [JMcrafter26/awesome-ai-tools#42](https://github.com/JMcrafter26/awesome-ai-tools/pull/42) | Add sounds-ai to Specialized AI Tools | 2026-07-25T02:51:33Z |
+| [darelova/Awesome-Design-Resources-List#20](https://github.com/darelova/Awesome-Design-Resources-List/pull/20) | Add Landing Copy Grader to Production Tools | 2026-07-25T02:50:02Z |
+| [ninjasort/awesome-marketing#56](https://github.com/ninjasort/awesome-marketing/pull/56) | Add two free copy-checking tools to Landing Pages and Writing Tools | 2026-07-25T02:49:29Z |
+| [anondotli/awesome-privacy-tools#33](https://github.com/anondotli/awesome-privacy-tools/pull/33) | Add Does My Text Sound AI? (on-device text checker) to Privacy-Friendl | 2026-07-25T02:48:49Z |
+| [tractiongroup/awesome-marketing-tools#42](https://github.com/tractiongroup/awesome-marketing-tools/pull/42) | Add Landing Copy Grader to Conversion Rate Optimization (CRO) | 2026-07-25T02:48:09Z |
+| [eibrahim/landing-pages-resources#16](https://github.com/eibrahim/landing-pages-resources/pull/16) | Add Landing Copy Grader to User Experience, Testing, and Optimization  | 2026-07-25T02:47:31Z |
+| [github/awesome-copilot#2428](https://github.com/github/awesome-copilot/pull/2428) | Add landing page hero copy instructions 🤖🤖🤖 | 2026-07-25T00:47:25Z |
 | [nibzard/awesome-agentic-patterns#120](https://github.com/nibzard/awesome-agentic-patterns/pull/120) | Add: deterministic-grader-in-the-loop | 2026-07-25T00:44:00Z |
-| [punkpeye/awesome-mcp-servers#10875](https://github.com/punkpeye/awesome-mcp-servers/pull/10875) | Add parweb/mcp-ai-slop-checker to Other Tools and Integrations 🤖🤖🤖 | 2026-07-25T00:44:51Z |
-| [dalisoft/awesome-ai-coding#81](https://github.com/dalisoft/awesome-ai-coding/pull/81) | Add mcp-ai-slop-checker to Tools | 2026-07-25T00:37:39Z |
 | [TensorBlock/awesome-mcp-servers#1380](https://github.com/TensorBlock/awesome-mcp-servers/pull/1380) | Add mcp-ai-slop-checker to Code Analysis & Quality | 2026-07-25T00:36:38Z |
 | [preetmishra/awesome-bootstrapped-software#18](https://github.com/preetmishra/awesome-bootstrapped-software/pull/18) | Add Does My Text Sound AI? to Marketing | 2026-07-25T00:36:05Z |
 | [GetBindu/awesome-claude-code-and-skills#129](https://github.com/GetBindu/awesome-claude-code-and-skills/pull/129) | Add parweb/claude-swarm-starter to Multi-Agent Systems | 2026-07-25T00:35:47Z |
@@ -28,3 +37,4 @@ Dernière mise à jour: 2026-07-25T00:44Z — run 30137004976
 
 ## Commentaires récents sur nos PRs ouvertes (réponse requise ?)
 
+- aliammari1/awesome-ai-tools#137 — 2 commentaire(s) — https://github.com/aliammari1/awesome-ai-tools/pull/137
