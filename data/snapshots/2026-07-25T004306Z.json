@@ -1,0 +1,110 @@
+{
+  "ts": "2026-07-25T00:43:25Z",
+  "repos": {
+    "parweb/mcp-ai-slop-checker": {
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "issues": 0
+    },
+    "parweb/landing-copy-grader": {
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "issues": 0
+    },
+    "parweb/claude-swarm-starter": {
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "issues": 0
+    },
+    "parweb/leverage-dev-rules": {
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "issues": 0
+    },
+    "parweb/studio-starter": {
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "issues": 0
+    },
+    "parweb/god-flight-recorder": {
+      "stars": 0,
+      "forks": 0,
+      "watchers": 0,
+      "issues": 0
+    }
+  },
+  "prs": {
+    "punkpeye/awesome-mcp-servers#10875": {
+      "state": "open",
+      "merged": false,
+      "comments": 2,
+      "updated_at": "2026-07-25T00:39:30Z"
+    },
+    "steven2358/awesome-generative-ai#1112": {
+      "state": "open",
+      "merged": false,
+      "comments": 0,
+      "updated_at": "2026-07-25T00:21:53Z"
+    },
+    "e2b-dev/awesome-ai-agents#1306": {
+      "state": "open",
+      "merged": false,
+      "comments": 1,
+      "updated_at": "2026-07-25T00:18:58Z"
+    },
+    "dalisoft/awesome-ai-coding#81": {
+      "state": "open",
+      "merged": false,
+      "comments": 0,
+      "updated_at": "2026-07-25T00:37:39Z"
+    },
+    "nibzard/awesome-agentic-patterns#120": {
+      "state": "open",
+      "merged": false,
+      "comments": 1,
+      "updated_at": "2026-07-25T00:37:10Z"
+    },
+    "TensorBlock/awesome-mcp-servers#1380": {
+      "state": "open",
+      "merged": false,
+      "comments": 0,
+      "updated_at": "2026-07-25T00:36:38Z"
+    },
+    "preetmishra/awesome-bootstrapped-software#18": {
+      "state": "open",
+      "merged": false,
+      "comments": 0,
+      "updated_at": "2026-07-25T00:36:05Z"
+    },
+    "GetBindu/awesome-claude-code-and-skills#129": {
+      "state": "open",
+      "merged": false,
+      "comments": 0,
+      "updated_at": "2026-07-25T00:35:47Z"
+    }
+  },
+  "pages": {
+    "/": 200,
+    "/sounds-ai": 200,
+    "/grader": 200,
+    "/live": 200,
+    "/leaderboard": 200,
+    "/operator": 200,
+    "/affiliate": 200,
+    "/free": 200,
+    "/tools": 200,
+    "/compare": 200
+  },
+  "bluesky": {
+    "followers": 3,
+    "follows": 41,
+    "posts": 42
+  },
+  "nostr": null,
+  "whattheai_listing_http": 404
+}
