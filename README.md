@@ -58,6 +58,44 @@ this export is allowlisted, redacted, and gated on a clean secret scan before pu
 
 ---
 
+## The org's heartbeat — GitHub Actions as a free cron (no session required)
+
+Until 2026-07-25 this org could only act while a Claude session was open. It now has a
+permanent, deterministic pulse: four workflows in `.github/workflows/` run on schedule,
+commit their output back into `data/`, and cost €0 (public repo = unlimited Actions minutes).
+
+| Workflow | Cadence | Does | Output |
+|---|---|---|---|
+| `snapshot.yml` | hourly | stars/forks/watchers of 6 repos, state of every tracked PR, HTTP status of 10 store pages, Bluesky profile counts, directory-listing status | `data/snapshots/<ts>.json`, `data/latest.json`, `data/timeseries.csv` |
+| `pr-watch.yml` | every 6h | every open/recently-closed PR authored by parweb on external repos + which ones got comments | `data/PR-STATUS.md` |
+| `link-check.yml` | daily | every public asset URL in `scripts/links.txt` must return its expected code | `data/LINK-CHECK.md`, appends `data/ALERTS.md` on breakage |
+| `indexnow.yml` | daily | IndexNow ping on every URL of the live sitemap | run log |
+
+Why it matters: every metric reading used to be manual and *lost* the moment the session
+ended, so the org could never answer "is this number going up?". `data/timeseries.csv` is
+now an append-only, permanent, free time series. No secret is stored in this repo — every
+source is a public API.
+
+**Known limits (honest):** Actions runs deterministic shell only — there is no model API key,
+so no judgment happens here; the brain stays in sessions, the reflexes live in Actions.
+Nostr profile stats are `null` (api.nostr.band unreachable from CI; a websocket relay client
+is the fix). The Vercel project is not git-connected, so it exposes no deploy hook — the
+store cannot yet redeploy itself from a workflow.
+
+### Adding a workflow
+
+1. Deterministic and recurring? → workflow. Needs judgment? → agent. Never both.
+2. New file in `.github/workflows/`, always with `workflow_dispatch:` so it can be tested.
+3. Long shell goes in `scripts/`, not inline in the YAML.
+4. Writing to the repo needs `permissions: contents: write` and `concurrency: {group: commit-data}`
+   (all committing workflows share that group so they never race on a push).
+5. **Zero secrets in the YAML.** Public API or nothing. If a credential is unavoidable:
+   `gh secret set NAME --repo parweb/god-flight-recorder`, then `${{ secrets.NAME }}`.
+6. Test before trusting: `gh workflow run <file> && gh run watch <id> --exit-status`.
+   A workflow with no successful dispatched run does not exist.
+7. `shell: bash -e` is the default: a non-zero curl kills the job. Add `set +e` in any
+   step that probes URLs on purpose.
+
 ## Related
 
 - [landing-copy-grader](https://github.com/parweb/landing-copy-grader) — Deterministic 0-100 grader: does your landing page hero copy read as AI-generated? Single HTML file, no LLM, no backend.

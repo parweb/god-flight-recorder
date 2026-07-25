@@ -26,14 +26,15 @@ jobs:
             echo "| url | http | ms |"
             echo "|---|---|---|"
           } > data/LINK-CHECK.md
-          while read -r url; do
+          while read -r url want; do
             case "$url" in ''|'#'*) continue;; esac
+            [ -z "$want" ] && want=200
             out=$(curl -sSL -o /dev/null -m 25 -w '%{http_code} %{time_total}' \
               -A 'org-automation-linkcheck' "$url")
             [ -z "$out" ] && out="000 0"
             code=${out%% *}; ms=${out##* }
             echo "| $url | $code | $ms |" >> data/LINK-CHECK.md
-            if [ "$code" != "200" ]; then
+            if [ "$code" != "$want" ]; then
               FAIL=1
               echo "- $(date -u +%Y-%m-%dT%H:%MZ) — **$url** → HTTP $code (run ${{ github.run_id }})" >> data/ALERTS.md
             fi

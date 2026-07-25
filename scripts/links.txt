@@ -1,5 +1,5 @@
 # Liens publics de l'org = notre distribution. Un 404 ici = un asset injoignable.
-# Une URL par ligne, # = commentaire.
+# Une URL par ligne, # = commentaire. Second champ optionnel = code HTTP attendu (defaut 200).
 https://1h-money-store.vercel.app/
 https://1h-money-store.vercel.app/sounds-ai
 https://1h-money-store.vercel.app/grader
@@ -24,5 +24,6 @@ https://parweb.github.io/mcp-ai-slop-checker/
 https://parweb.github.io/leverage-dev-rules/
 https://parweb.github.io/studio-starter/
 https://bsky.app/profile/parweb.bsky.social
-https://njump.me/npub1htrdcxp9gvdgjxxy8lzweqpa8h0s98f7g4zvhldgm7aw7k8nywcstw7wpx
+# njump bloque les UA datacenter (403 en CI) -> code attendu 403, pas une casse
+https://njump.me/npub1htrdcxp9gvdgjxxy8lzweqpa8h0s98f7g4zvhldgm7aw7k8nywcstw7wpx 403
 https://gist.github.com/parweb
