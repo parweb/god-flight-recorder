@@ -1,12 +1,12 @@
 # PR-STATUS — généré par pr-watch.yml
 
-Dernière mise à jour: 2026-07-25T08:26Z — run 30151099050
+Dernière mise à jour: 2026-07-25T14:04Z — run 30160941237
 
 ## PRs ouvertes (auteur parweb, repos externes)
 
 | PR | titre | maj |
 |---|---|---|
-| [dalisoft/awesome-ai-coding#81](https://github.com/dalisoft/awesome-ai-coding/pull/81) | Add mcp-ai-slop-checker to Tools | 2026-07-25T05:18:24Z |
+| [dalisoft/awesome-ai-coding#81](https://github.com/dalisoft/awesome-ai-coding/pull/81) | Add mcp-ai-slop-checker to Tools | 2026-07-25T13:40:11Z |
 | [punkpeye/awesome-mcp-servers#10875](https://github.com/punkpeye/awesome-mcp-servers/pull/10875) | Add parweb/mcp-ai-slop-checker to Other Tools and Integrations 🤖🤖🤖 | 2026-07-25T04:17:09Z |
 | [aliammari1/awesome-ai-tools#137](https://github.com/aliammari1/awesome-ai-tools/pull/137) | Add Does My Text Sound AI? to Writing Assistants | 2026-07-25T02:54:15Z |
 | [eudk/awesome-ai-tools#463](https://github.com/eudk/awesome-ai-tools/pull/463) | Add two offline AI-writing checkers to Additional AI and Productivity  | 2026-07-25T02:51:58Z |
@@ -38,3 +38,4 @@ Dernière mise à jour: 2026-07-25T08:26Z — run 30151099050
 ## Commentaires récents sur nos PRs ouvertes (réponse requise ?)
 
 - aliammari1/awesome-ai-tools#137 — 2 commentaire(s) — https://github.com/aliammari1/awesome-ai-tools/pull/137
+- dalisoft/awesome-ai-coding#81 — 2 commentaire(s) — https://github.com/dalisoft/awesome-ai-coding/pull/81
