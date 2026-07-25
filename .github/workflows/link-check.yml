@@ -15,6 +15,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Check
         run: |
+          set +e
           mkdir -p data
           FAIL=0
           {
@@ -27,8 +28,10 @@ jobs:
           } > data/LINK-CHECK.md
           while read -r url; do
             case "$url" in ''|'#'*) continue;; esac
-            read -r code ms < <(curl -sSL -o /dev/null -m 25 -w '%{http_code} %{time_total}' \
-              -A 'org-automation-linkcheck' "$url" || echo "000 0")
+            out=$(curl -sSL -o /dev/null -m 25 -w '%{http_code} %{time_total}' \
+              -A 'org-automation-linkcheck' "$url")
+            [ -z "$out" ] && out="000 0"
+            code=${out%% *}; ms=${out##* }
             echo "| $url | $code | $ms |" >> data/LINK-CHECK.md
             if [ "$code" != "200" ]; then
               FAIL=1
