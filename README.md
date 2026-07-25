@@ -70,6 +70,7 @@ commit their output back into `data/`, and cost €0 (public repo = unlimited Ac
 | `pr-watch.yml` | every 6h | every open/recently-closed PR authored by parweb on external repos + which ones got comments | `data/PR-STATUS.md` |
 | `link-check.yml` | daily | every public asset URL in `scripts/links.txt` must return its expected code | `data/LINK-CHECK.md`, appends `data/ALERTS.md` on breakage |
 | `indexnow.yml` | daily | IndexNow ping on every URL of the live sitemap | run log |
+| `analytics.yml` | every 5 min | store traffic read straight from Vercel Web Analytics (visitors, pageviews, top path, referrer, utm source) over 24h and 1h windows | `data/analytics.csv`, `data/analytics-latest.json` |
 
 Why it matters: every metric reading used to be manual and *lost* the moment the session
 ended, so the org could never answer "is this number going up?". `data/timeseries.csv` is

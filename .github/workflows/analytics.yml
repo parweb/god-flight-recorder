@@ -1,0 +1,42 @@
+name: analytics
+# Série temporelle du trafic du store (Vercel Web Analytics, lu en API sans navigateur).
+# Secret requis: VERCEL_TOKEN (gh secret set VERCEL_TOKEN --repo parweb/god-flight-recorder).
+on:
+  schedule:
+    - cron: '*/5 * * * *'   # GitHub retarde souvent les crons courts: viser 5-15 min réels.
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: commit-data
+jobs:
+  analytics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Measure
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: |
+          set +e
+          bash scripts/measure.sh --window 24h > /tmp/a24.json
+          bash scripts/measure.sh --window 1h  > /tmp/a1.json
+          set -e
+          jq -e '.pageviews' /tmp/a24.json >/dev/null || { echo "mesure 24h illisible"; cat /tmp/a24.json; exit 1; }
+          cp /tmp/a24.json data/analytics-latest.json
+          [ -f data/analytics.csv ] || echo 'ts,visitors_24h,pageviews_24h,visitors_1h,pageviews_1h,visitors_30m,top_path,top_referrer,top_utm_source' > data/analytics.csv
+          jq -rn --slurpfile a /tmp/a24.json --slurpfile b /tmp/a1.json '
+            [$a[0].ts, $a[0].visitors, $a[0].pageviews,
+             ($b[0].visitors // ""), ($b[0].pageviews // ""),
+             ($a[0].realtime_30m.visitors // ""),
+             ($a[0].top_paths[0].path // ""),
+             ($a[0].referrers[0].referrer // ""),
+             ($a[0].utm_sources[0].source // "")] | @csv' >> data/analytics.csv
+      - name: Commit
+        run: |
+          git config user.name 'org-automation'
+          git config user.email 'actions@github.com'
+          git add data
+          git diff --cached --quiet || git commit -m "analytics $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase --autostash || true
+          git push
