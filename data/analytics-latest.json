@@ -1,11 +1,11 @@
 {
-  "ts": "2026-07-25T05:41:08Z",
+  "ts": "2026-07-25T07:44:12Z",
   "project": "1h-money-store",
   "window": "24h",
-  "from": "2026-07-24T05:41:05.000Z",
-  "to": "2026-07-25T05:41:05.000Z",
-  "visitors": 45,
-  "pageviews": 57,
+  "from": "2026-07-24T07:44:09.000Z",
+  "to": "2026-07-25T07:44:09.000Z",
+  "visitors": 48,
+  "pageviews": 61,
   "realtime_30m": {
     "visitors": 0,
     "pageviews": 0
@@ -13,18 +13,18 @@
   "top_paths": [
     {
       "path": "/grader",
-      "views": 28,
-      "visitors": 25
+      "views": 29,
+      "visitors": 26
     },
     {
       "path": "/",
-      "views": 15,
-      "visitors": 15
+      "views": 17,
+      "visitors": 16
     },
     {
       "path": "/sounds-ai",
-      "views": 7,
-      "visitors": 6
+      "views": 8,
+      "visitors": 7
     },
     {
       "path": "/live",
@@ -50,13 +50,13 @@
   "referrers": [
     {
       "referrer": "news.ycombinator.com",
-      "views": 6,
-      "visitors": 6
+      "views": 7,
+      "visitors": 7
     },
     {
       "referrer": "go.bsky.app",
-      "views": 6,
-      "visitors": 4
+      "views": 7,
+      "visitors": 5
     },
     {
       "referrer": "hacker-news.firebaseio.com",
@@ -72,8 +72,8 @@
   "utm_sources": [
     {
       "source": "bsky",
-      "views": 2,
-      "visitors": 2
+      "views": 3,
+      "visitors": 3
     },
     {
       "source": "press",
@@ -97,6 +97,11 @@
     }
   ],
   "utm_campaigns": [
+    {
+      "campaign": "n-provoc",
+      "views": 2,
+      "visitors": 2
+    },
     {
       "campaign": "fortune",
       "views": 1,
@@ -128,11 +133,6 @@
       "visitors": 1
     },
     {
-      "campaign": "n-provoc",
-      "views": 1,
-      "visitors": 1
-    },
-    {
       "campaign": "techcrunch",
       "views": 1,
       "visitors": 1
@@ -141,8 +141,8 @@
   "countries": [
     {
       "country": "US",
-      "views": 41,
-      "visitors": 30
+      "views": 43,
+      "visitors": 31
     },
     {
       "country": "FR",
@@ -151,6 +151,11 @@
     },
     {
       "country": "CA",
+      "views": 2,
+      "visitors": 2
+    },
+    {
+      "country": "SG",
       "views": 2,
       "visitors": 2
     },
@@ -175,6 +180,11 @@
       "visitors": 1
     },
     {
+      "country": "IE",
+      "views": 1,
+      "visitors": 1
+    },
+    {
       "country": "JP",
       "views": 1,
       "visitors": 1
@@ -190,11 +200,6 @@
       "visitors": 1
     },
     {
-      "country": "SG",
-      "views": 1,
-      "visitors": 1
-    },
-    {
       "country": "SI",
       "views": 1,
       "visitors": 1
@@ -203,13 +208,13 @@
   "devices": [
     {
       "device": "desktop",
-      "views": 42,
-      "visitors": 35
+      "views": 43,
+      "visitors": 36
     },
     {
       "device": "mobile",
-      "views": 15,
-      "visitors": 10
+      "views": 18,
+      "visitors": 12
     }
   ]
 }
