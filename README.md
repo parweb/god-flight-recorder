@@ -55,3 +55,14 @@ Files are mostly in French (the org's working language). The numbers read fine i
 
 Single squashed commit by design: the source repo contains secrets and product content;
 this export is allowlisted, redacted, and gated on a clean secret scan before push.
+
+---
+
+## Related
+
+- [landing-copy-grader](https://github.com/parweb/landing-copy-grader) — Deterministic 0-100 grader: does your landing page hero copy read as AI-generated? Single HTML file, no LLM, no backend.
+- [claude-swarm-starter](https://github.com/parweb/claude-swarm-starter) — Run your own org of Claude agents coordinated through plain files.
+- [leverage-dev-rules](https://github.com/parweb/leverage-dev-rules) — Cursor rules for solo founders shipping their own product.
+- [studio-starter](https://github.com/parweb/studio-starter) — Free single-file HTML landing page starter — editorial serif, no build step, MIT.
+
+- **Open dataset:** [239 landing pages scored for AI-slop copy](https://gist.github.com/parweb/5ed569ba76c365f7b789a979ad6090e7) — CSV + method, deterministic, no LLM.
