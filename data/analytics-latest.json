@@ -1,11 +1,11 @@
 {
-  "ts": "2026-07-25T09:22:14Z",
+  "ts": "2026-07-25T10:51:32Z",
   "project": "1h-money-store",
   "window": "24h",
-  "from": "2026-07-24T09:22:12.000Z",
-  "to": "2026-07-25T09:22:12.000Z",
+  "from": "2026-07-24T10:51:29.000Z",
+  "to": "2026-07-25T10:51:29.000Z",
   "visitors": 48,
-  "pageviews": 61,
+  "pageviews": 62,
   "realtime_30m": {
     "visitors": 0,
     "pageviews": 0
@@ -23,7 +23,7 @@
     },
     {
       "path": "/sounds-ai",
-      "views": 8,
+      "views": 9,
       "visitors": 7
     },
     {
@@ -55,7 +55,7 @@
     },
     {
       "referrer": "go.bsky.app",
-      "views": 7,
+      "views": 8,
       "visitors": 5
     },
     {
@@ -72,7 +72,7 @@
   "utm_sources": [
     {
       "source": "bsky",
-      "views": 3,
+      "views": 4,
       "visitors": 3
     },
     {
@@ -99,7 +99,7 @@
   "utm_campaigns": [
     {
       "campaign": "n-provoc",
-      "views": 2,
+      "views": 3,
       "visitors": 2
     },
     {
@@ -141,7 +141,7 @@
   "countries": [
     {
       "country": "US",
-      "views": 43,
+      "views": 44,
       "visitors": 31
     },
     {
@@ -213,7 +213,7 @@
     },
     {
       "device": "mobile",
-      "views": 18,
+      "views": 19,
       "visitors": 12
     }
   ]
