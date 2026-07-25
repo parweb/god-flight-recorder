@@ -3,7 +3,8 @@ name: analytics
 # Secret requis: VERCEL_TOKEN (gh secret set VERCEL_TOKEN --repo parweb/god-flight-recorder).
 on:
   schedule:
-    - cron: '*/5 * * * *'   # GitHub retarde souvent les crons courts: viser 5-15 min réels.
+    - cron: '*/15 * * * *'  # */5 n'a JAMAIS déclenché (0 event 'schedule' en 1h30, 30 runs tous manuels).
+    #                        GitHub déprioritise les crons courts: */15 est le premier palier fiable.
   workflow_dispatch:
 permissions:
   contents: write
