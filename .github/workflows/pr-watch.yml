@@ -1,0 +1,52 @@
+name: pr-watch
+# État de toutes nos PRs/issues externes, écrit dans le repo. Toutes les 6h.
+on:
+  schedule:
+    - cron: '23 */6 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: commit-data
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Collect
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p data
+          {
+            echo "# PR-STATUS — généré par pr-watch.yml"
+            echo ""
+            echo "Dernière mise à jour: $(date -u +%Y-%m-%dT%H:%MZ) — run ${{ github.run_id }}"
+            echo ""
+            echo "## PRs ouvertes (auteur parweb, repos externes)"
+            echo ""
+            echo "| PR | titre | maj |"
+            echo "|---|---|---|"
+            gh api "search/issues?q=is:pr+author:parweb+is:open+-user:parweb&per_page=50&sort=updated" \
+              --jq '.items[] | "| ["+(.repository_url|sub("https://api.github.com/repos/";""))+"#"+(.number|tostring)+"]("+.html_url+") | "+(.title|.[0:70])+" | "+(.updated_at)+" |"'
+            echo ""
+            echo "## Fermées / mergées dans les 7 derniers jours"
+            echo ""
+            echo "| PR | état | titre |"
+            echo "|---|---|---|"
+            gh api "search/issues?q=is:pr+author:parweb+is:closed+-user:parweb+closed:>$(date -u -d '7 days ago' +%Y-%m-%d)&per_page=50&sort=updated" \
+              --jq '.items[] | "| ["+(.repository_url|sub("https://api.github.com/repos/";""))+"#"+(.number|tostring)+"]("+.html_url+") | "+(if .pull_request.merged_at then "MERGED" else "closed" end)+" | "+(.title|.[0:70])+" |"'
+            echo ""
+            echo "## Commentaires récents sur nos PRs ouvertes (réponse requise ?)"
+            echo ""
+            gh api "search/issues?q=is:pr+author:parweb+is:open+-user:parweb+comments:>0&per_page=30" \
+              --jq '.items[] | "- "+(.repository_url|sub("https://api.github.com/repos/";""))+"#"+(.number|tostring)+" — "+(.comments|tostring)+" commentaire(s) — "+.html_url'
+          } > data/PR-STATUS.md
+      - name: Commit
+        run: |
+          git config user.name 'org-automation'
+          git config user.email 'actions@github.com'
+          git add data/PR-STATUS.md
+          git diff --cached --quiet || git commit -m "pr-watch $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase --autostash || true
+          git push

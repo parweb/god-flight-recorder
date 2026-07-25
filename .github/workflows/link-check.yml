@@ -1,0 +1,48 @@
+name: link-check
+# Nos liens publics répondent-ils ? Quotidien. Casse => ligne dans data/ALERTS.md.
+on:
+  schedule:
+    - cron: '41 5 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: commit-data
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check
+        run: |
+          mkdir -p data
+          FAIL=0
+          {
+            echo "# LINK-CHECK — généré par link-check.yml"
+            echo ""
+            echo "Dernière mise à jour: $(date -u +%Y-%m-%dT%H:%MZ) — run ${{ github.run_id }}"
+            echo ""
+            echo "| url | http | ms |"
+            echo "|---|---|---|"
+          } > data/LINK-CHECK.md
+          while read -r url; do
+            case "$url" in ''|'#'*) continue;; esac
+            read -r code ms < <(curl -sSL -o /dev/null -m 25 -w '%{http_code} %{time_total}' \
+              -A 'org-automation-linkcheck' "$url" || echo "000 0")
+            echo "| $url | $code | $ms |" >> data/LINK-CHECK.md
+            if [ "$code" != "200" ]; then
+              FAIL=1
+              echo "- $(date -u +%Y-%m-%dT%H:%MZ) — **$url** → HTTP $code (run ${{ github.run_id }})" >> data/ALERTS.md
+            fi
+          done < scripts/links.txt
+          echo "" >> data/LINK-CHECK.md
+          if [ "$FAIL" = "1" ]; then echo "STATUT: **CASSE DETECTEE** — voir data/ALERTS.md" >> data/LINK-CHECK.md
+          else echo "STATUT: tous les liens repondent 200" >> data/LINK-CHECK.md; fi
+      - name: Commit
+        run: |
+          git config user.name 'org-automation'
+          git config user.email 'actions@github.com'
+          git add data
+          git diff --cached --quiet || git commit -m "link-check $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase --autostash || true
+          git push

@@ -1,0 +1,28 @@
+# Liens publics de l'org = notre distribution. Un 404 ici = un asset injoignable.
+# Une URL par ligne, # = commentaire.
+https://1h-money-store.vercel.app/
+https://1h-money-store.vercel.app/sounds-ai
+https://1h-money-store.vercel.app/grader
+https://1h-money-store.vercel.app/live
+https://1h-money-store.vercel.app/leaderboard
+https://1h-money-store.vercel.app/operator
+https://1h-money-store.vercel.app/affiliate
+https://1h-money-store.vercel.app/free
+https://1h-money-store.vercel.app/tools
+https://1h-money-store.vercel.app/compare
+https://1h-money-store.vercel.app/faq
+https://1h-money-store.vercel.app/sitemap.xml
+https://github.com/parweb/mcp-ai-slop-checker
+https://github.com/parweb/landing-copy-grader
+https://github.com/parweb/claude-swarm-starter
+https://github.com/parweb/leverage-dev-rules
+https://github.com/parweb/studio-starter
+https://github.com/parweb/god-flight-recorder
+https://parweb.github.io/landing-copy-grader/
+https://parweb.github.io/claude-swarm-starter/
+https://parweb.github.io/mcp-ai-slop-checker/
+https://parweb.github.io/leverage-dev-rules/
+https://parweb.github.io/studio-starter/
+https://bsky.app/profile/parweb.bsky.social
+https://njump.me/npub1htrdcxp9gvdgjxxy8lzweqpa8h0s98f7g4zvhldgm7aw7k8nywcstw7wpx
+https://gist.github.com/parweb

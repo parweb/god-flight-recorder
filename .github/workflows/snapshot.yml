@@ -1,0 +1,40 @@
+name: snapshot
+# Série temporelle des métriques publiques. Horaire. Aucun secret.
+on:
+  schedule:
+    - cron: '7 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: commit-data
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Capture
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p data/snapshots
+          STAMP=$(date -u +%Y-%m-%dT%H%M%SZ)
+          bash scripts/snapshot.sh > "data/snapshots/$STAMP.json"
+          cp "data/snapshots/$STAMP.json" data/latest.json
+          [ -f data/timeseries.csv ] || echo 'ts,total_stars,prs_merged,prs_open,pages_down,bsky_followers,nostr_followers,whattheai_http' > data/timeseries.csv
+          jq -r '[.ts,
+                  ([.repos[].stars]|add),
+                  ([.prs[]|select(.merged==true)]|length),
+                  ([.prs[]|select(.state=="open")]|length),
+                  ([.pages[]|select(.!=200)]|length),
+                  (.bluesky.followers//""),
+                  (.nostr.followers//""),
+                  .whattheai_listing_http] | @csv' data/latest.json >> data/timeseries.csv
+      - name: Commit
+        run: |
+          git config user.name 'org-automation'
+          git config user.email 'actions@github.com'
+          git add data
+          git diff --cached --quiet || git commit -m "snapshot $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase --autostash || true
+          git push

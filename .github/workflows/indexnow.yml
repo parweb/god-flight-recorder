@@ -1,0 +1,23 @@
+name: indexnow
+# Ping IndexNow (Bing/Yandex/Seznam) sur TOUTES les URLs du sitemap. Quotidien.
+# La clé IndexNow n'est pas un secret: elle est publiquement servie sur le domaine.
+on:
+  schedule:
+    - cron: '33 4 * * *'
+  workflow_dispatch:
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping every sitemap url
+        run: |
+          KEY=7d3b1f9a4c62e05821af6d94b3c7e08a
+          curl -sS -m 30 https://1h-money-store.vercel.app/sitemap.xml \
+            | grep -o '<loc>[^<]*' | sed 's|<loc>||' > urls.txt
+          echo "$(wc -l < urls.txt) urls"
+          while read -r u; do
+            [ -z "$u" ] && continue
+            code=$(curl -sS -o /dev/null -m 20 -w '%{http_code}' \
+              "https://api.indexnow.org/indexnow?url=${u}&key=${KEY}")
+            echo "$code $u"
+          done < urls.txt
