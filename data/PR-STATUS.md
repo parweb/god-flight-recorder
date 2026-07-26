@@ -1,12 +1,12 @@
 # PR-STATUS — généré par pr-watch.yml
 
-Dernière mise à jour: 2026-07-25T19:37Z — run 30171968537
+Dernière mise à jour: 2026-07-26T03:59Z — run 30187034100
 
 ## PRs ouvertes (auteur parweb, repos externes)
 
 | PR | titre | maj |
 |---|---|---|
-| [punkpeye/awesome-mcp-servers#10875](https://github.com/punkpeye/awesome-mcp-servers/pull/10875) | Add parweb/mcp-ai-slop-checker to Other Tools and Integrations 🤖🤖🤖 | 2026-07-25T19:36:17Z |
+| [punkpeye/awesome-mcp-servers#10875](https://github.com/punkpeye/awesome-mcp-servers/pull/10875) | Add parweb/mcp-ai-slop-checker to Other Tools and Integrations 🤖🤖🤖 | 2026-07-25T20:02:36Z |
 | [github/awesome-copilot#2428](https://github.com/github/awesome-copilot/pull/2428) | Add landing page hero copy instructions 🤖🤖🤖 | 2026-07-25T18:05:14Z |
 | [wedow/ticket#1](https://github.com/wedow/ticket/pull/1) | feat: Add shell completion support for Bash and Zsh | 2026-07-25T15:20:19Z |
 | [aliammari1/awesome-ai-tools#137](https://github.com/aliammari1/awesome-ai-tools/pull/137) | Add Does My Text Sound AI? to Writing Assistants | 2026-07-25T02:54:15Z |
@@ -40,4 +40,4 @@ Dernière mise à jour: 2026-07-25T19:37Z — run 30171968537
 
 - aliammari1/awesome-ai-tools#137 — 2 commentaire(s) — https://github.com/aliammari1/awesome-ai-tools/pull/137
 - github/awesome-copilot#2428 — 3 commentaire(s) — https://github.com/github/awesome-copilot/pull/2428
-- punkpeye/awesome-mcp-servers#10875 — 9 commentaire(s) — https://github.com/punkpeye/awesome-mcp-servers/pull/10875
+- punkpeye/awesome-mcp-servers#10875 — 10 commentaire(s) — https://github.com/punkpeye/awesome-mcp-servers/pull/10875
