@@ -1,15 +1,15 @@
 # PR-STATUS — généré par pr-watch.yml
 
-Dernière mise à jour: 2026-07-30T14:35Z — run 30552458454
+Dernière mise à jour: 2026-07-30T19:55Z — run 30576881342
 
 ## PRs ouvertes (auteur parweb, repos externes)
 
 | PR | titre | maj |
 |---|---|---|
+| [eudk/awesome-ai-tools#463](https://github.com/eudk/awesome-ai-tools/pull/463) | Add two offline AI-writing checkers to Additional AI and Productivity  | 2026-07-30T14:39:26Z |
 | [punkpeye/awesome-mcp-servers#10875](https://github.com/punkpeye/awesome-mcp-servers/pull/10875) | Add parweb/mcp-ai-slop-checker to Other Tools and Integrations 🤖🤖🤖 | 2026-07-25T20:02:36Z |
 | [wedow/ticket#1](https://github.com/wedow/ticket/pull/1) | feat: Add shell completion support for Bash and Zsh | 2026-07-25T15:20:19Z |
 | [aliammari1/awesome-ai-tools#137](https://github.com/aliammari1/awesome-ai-tools/pull/137) | Add Does My Text Sound AI? to Writing Assistants | 2026-07-25T02:54:15Z |
-| [eudk/awesome-ai-tools#463](https://github.com/eudk/awesome-ai-tools/pull/463) | Add two offline AI-writing checkers to Additional AI and Productivity  | 2026-07-25T02:51:58Z |
 | [JMcrafter26/awesome-ai-tools#42](https://github.com/JMcrafter26/awesome-ai-tools/pull/42) | Add sounds-ai to Specialized AI Tools | 2026-07-25T02:51:33Z |
 | [darelova/Awesome-Design-Resources-List#20](https://github.com/darelova/Awesome-Design-Resources-List/pull/20) | Add Landing Copy Grader to Production Tools | 2026-07-25T02:50:02Z |
 | [ninjasort/awesome-marketing#56](https://github.com/ninjasort/awesome-marketing/pull/56) | Add two free copy-checking tools to Landing Pages and Writing Tools | 2026-07-25T02:49:29Z |
