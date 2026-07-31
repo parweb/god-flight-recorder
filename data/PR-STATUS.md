@@ -1,6 +1,6 @@
 # PR-STATUS — généré par pr-watch.yml
 
-Dernière mise à jour: 2026-07-31T03:53Z — run 30602727077
+Dernière mise à jour: 2026-07-31T09:19Z — run 30619494598
 
 ## PRs ouvertes (auteur parweb, repos externes)
 
@@ -14,7 +14,6 @@ Dernière mise à jour: 2026-07-31T03:53Z — run 30602727077
 | [darelova/Awesome-Design-Resources-List#20](https://github.com/darelova/Awesome-Design-Resources-List/pull/20) | Add Landing Copy Grader to Production Tools | 2026-07-25T02:50:02Z |
 | [ninjasort/awesome-marketing#56](https://github.com/ninjasort/awesome-marketing/pull/56) | Add two free copy-checking tools to Landing Pages and Writing Tools | 2026-07-25T02:49:29Z |
 | [anondotli/awesome-privacy-tools#33](https://github.com/anondotli/awesome-privacy-tools/pull/33) | Add Does My Text Sound AI? (on-device text checker) to Privacy-Friendl | 2026-07-25T02:48:49Z |
-| [tractiongroup/awesome-marketing-tools#42](https://github.com/tractiongroup/awesome-marketing-tools/pull/42) | Add Landing Copy Grader to Conversion Rate Optimization (CRO) | 2026-07-25T02:48:09Z |
 | [eibrahim/landing-pages-resources#16](https://github.com/eibrahim/landing-pages-resources/pull/16) | Add Landing Copy Grader to User Experience, Testing, and Optimization  | 2026-07-25T02:47:31Z |
 | [nibzard/awesome-agentic-patterns#120](https://github.com/nibzard/awesome-agentic-patterns/pull/120) | Add: deterministic-grader-in-the-loop | 2026-07-25T00:44:00Z |
 | [preetmishra/awesome-bootstrapped-software#18](https://github.com/preetmishra/awesome-bootstrapped-software/pull/18) | Add Does My Text Sound AI? to Marketing | 2026-07-25T00:36:05Z |
