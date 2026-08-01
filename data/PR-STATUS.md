@@ -1,6 +1,6 @@
 # PR-STATUS — généré par pr-watch.yml
 
-Dernière mise à jour: 2026-07-31T19:56Z — run 30660931117
+Dernière mise à jour: 2026-08-01T03:53Z — run 30682870222
 
 ## PRs ouvertes (auteur parweb, repos externes)
 
@@ -30,9 +30,6 @@ Dernière mise à jour: 2026-07-31T19:56Z — run 30660931117
 
 | PR | état | titre |
 |---|---|---|
-| [dalisoft/awesome-ai-coding#81](https://github.com/dalisoft/awesome-ai-coding/pull/81) | MERGED | Add mcp-ai-slop-checker to Tools |
-| [Goldziher/basemind#48](https://github.com/Goldziher/basemind/pull/48) | MERGED | docs: hero copy — promote the positioning sentence, name the CTA outco |
-| [TensorBlock/awesome-mcp-servers#1380](https://github.com/TensorBlock/awesome-mcp-servers/pull/1380) | MERGED | Add mcp-ai-slop-checker to Code Analysis & Quality |
 
 ## Commentaires récents sur nos PRs ouvertes (réponse requise ?)
 
