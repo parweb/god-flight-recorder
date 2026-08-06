@@ -1,6 +1,6 @@
 # PR-STATUS — généré par pr-watch.yml
 
-Dernière mise à jour: 2026-08-06T09:08Z — run 31087854884
+Dernière mise à jour: 2026-08-06T14:37Z — run 31111770843
 
 ## PRs ouvertes (auteur parweb, repos externes)
 
@@ -17,7 +17,6 @@ Dernière mise à jour: 2026-08-06T09:08Z — run 31087854884
 | [eibrahim/landing-pages-resources#16](https://github.com/eibrahim/landing-pages-resources/pull/16) | Add Landing Copy Grader to User Experience, Testing, and Optimization  | 2026-07-25T02:47:31Z |
 | [nibzard/awesome-agentic-patterns#120](https://github.com/nibzard/awesome-agentic-patterns/pull/120) | Add: deterministic-grader-in-the-loop | 2026-07-25T00:44:00Z |
 | [preetmishra/awesome-bootstrapped-software#18](https://github.com/preetmishra/awesome-bootstrapped-software/pull/18) | Add Does My Text Sound AI? to Marketing | 2026-07-25T00:36:05Z |
-| [GetBindu/awesome-claude-code-and-skills#129](https://github.com/GetBindu/awesome-claude-code-and-skills/pull/129) | Add parweb/claude-swarm-starter to Multi-Agent Systems | 2026-07-25T00:35:47Z |
 | [steven2358/awesome-generative-ai#1112](https://github.com/steven2358/awesome-generative-ai/pull/1112) | Add 'Does My Text Sound AI?' to Discoveries > Writing assistants | 2026-07-25T00:21:53Z |
 | [e2b-dev/awesome-ai-agents#1306](https://github.com/e2b-dev/awesome-ai-agents/pull/1306) | Add Claude Swarm Starter | 2026-07-25T00:18:58Z |
 | [ErickWendel/fluentsql-jest-tdd-yt#2](https://github.com/ErickWendel/fluentsql-jest-tdd-yt/pull/2) | implement groupBy feature | 2022-10-31T16:43:25Z |
