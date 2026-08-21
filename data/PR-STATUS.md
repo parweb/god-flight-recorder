@@ -1,6 +1,6 @@
 # PR-STATUS — généré par pr-watch.yml
 
-Dernière mise à jour: 2026-08-21T07:10Z — run 32457440696
+Dernière mise à jour: 2026-08-21T13:13Z — run 32485697815
 
 ## PRs ouvertes (auteur parweb, repos externes)
 
@@ -14,7 +14,6 @@ Dernière mise à jour: 2026-08-21T07:10Z — run 32457440696
 | [darelova/Awesome-Design-Resources-List#20](https://github.com/darelova/Awesome-Design-Resources-List/pull/20) | Add Landing Copy Grader to Production Tools | 2026-07-25T02:50:02Z |
 | [ninjasort/awesome-marketing#56](https://github.com/ninjasort/awesome-marketing/pull/56) | Add two free copy-checking tools to Landing Pages and Writing Tools | 2026-07-25T02:49:29Z |
 | [eibrahim/landing-pages-resources#16](https://github.com/eibrahim/landing-pages-resources/pull/16) | Add Landing Copy Grader to User Experience, Testing, and Optimization  | 2026-07-25T02:47:31Z |
-| [nibzard/awesome-agentic-patterns#120](https://github.com/nibzard/awesome-agentic-patterns/pull/120) | Add: deterministic-grader-in-the-loop | 2026-07-25T00:44:00Z |
 | [preetmishra/awesome-bootstrapped-software#18](https://github.com/preetmishra/awesome-bootstrapped-software/pull/18) | Add Does My Text Sound AI? to Marketing | 2026-07-25T00:36:05Z |
 | [steven2358/awesome-generative-ai#1112](https://github.com/steven2358/awesome-generative-ai/pull/1112) | Add 'Does My Text Sound AI?' to Discoveries > Writing assistants | 2026-07-25T00:21:53Z |
 | [e2b-dev/awesome-ai-agents#1306](https://github.com/e2b-dev/awesome-ai-agents/pull/1306) | Add Claude Swarm Starter | 2026-07-25T00:18:58Z |
@@ -28,6 +27,7 @@ Dernière mise à jour: 2026-08-21T07:10Z — run 32457440696
 
 | PR | état | titre |
 |---|---|---|
+| [nibzard/awesome-agentic-patterns#120](https://github.com/nibzard/awesome-agentic-patterns/pull/120) | MERGED | Add: deterministic-grader-in-the-loop |
 
 ## Commentaires récents sur nos PRs ouvertes (réponse requise ?)
 
