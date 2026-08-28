@@ -1,6 +1,6 @@
 # PR-STATUS — généré par pr-watch.yml
 
-Dernière mise à jour: 2026-08-27T22:18Z — run 33121967275
+Dernière mise à jour: 2026-08-28T11:29Z — run 33167321555
 
 ## PRs ouvertes (auteur parweb, repos externes)
 
@@ -26,7 +26,6 @@ Dernière mise à jour: 2026-08-27T22:18Z — run 33121967275
 | PR | état | titre |
 |---|---|---|
 | [JMcrafter26/awesome-ai-tools#42](https://github.com/JMcrafter26/awesome-ai-tools/pull/42) | closed | Add sounds-ai to Specialized AI Tools |
-| [nibzard/awesome-agentic-patterns#120](https://github.com/nibzard/awesome-agentic-patterns/pull/120) | MERGED | Add: deterministic-grader-in-the-loop |
 
 ## Commentaires récents sur nos PRs ouvertes (réponse requise ?)
 
