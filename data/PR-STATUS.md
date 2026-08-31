@@ -1,6 +1,6 @@
 # PR-STATUS — généré par pr-watch.yml
 
-Dernière mise à jour: 2026-08-30T21:11Z — run 33335714548
+Dernière mise à jour: 2026-08-31T05:42Z — run 33361501314
 
 ## PRs ouvertes (auteur parweb, repos externes)
 
@@ -25,7 +25,6 @@ Dernière mise à jour: 2026-08-30T21:11Z — run 33335714548
 
 | PR | état | titre |
 |---|---|---|
-| [JMcrafter26/awesome-ai-tools#42](https://github.com/JMcrafter26/awesome-ai-tools/pull/42) | closed | Add sounds-ai to Specialized AI Tools |
 
 ## Commentaires récents sur nos PRs ouvertes (réponse requise ?)
 
