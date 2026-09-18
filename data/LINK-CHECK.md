@@ -1,34 +1,34 @@
 # LINK-CHECK — généré par link-check.yml
 
-Dernière mise à jour: 2026-09-17T10:23Z — run 35210182109
+Dernière mise à jour: 2026-09-18T10:01Z — run 35332529241
 
 | url | http | ms |
 |---|---|---|
-| https://1h-money-store.vercel.app/ | 200 | 0.050076 |
-| https://1h-money-store.vercel.app/sounds-ai | 200 | 0.102475 |
-| https://1h-money-store.vercel.app/grader | 200 | 0.050439 |
-| https://1h-money-store.vercel.app/live | 200 | 0.046302 |
-| https://1h-money-store.vercel.app/leaderboard | 200 | 0.038060 |
-| https://1h-money-store.vercel.app/operator | 200 | 0.143590 |
-| https://1h-money-store.vercel.app/affiliate | 200 | 0.042793 |
-| https://1h-money-store.vercel.app/free | 200 | 0.062776 |
-| https://1h-money-store.vercel.app/tools | 200 | 0.040380 |
-| https://1h-money-store.vercel.app/compare | 200 | 0.070678 |
-| https://1h-money-store.vercel.app/faq | 200 | 0.053837 |
-| https://1h-money-store.vercel.app/sitemap.xml | 200 | 0.035923 |
-| https://github.com/parweb/mcp-ai-slop-checker | 200 | 0.575726 |
-| https://github.com/parweb/landing-copy-grader | 200 | 0.673141 |
-| https://github.com/parweb/claude-swarm-starter | 200 | 0.613763 |
-| https://github.com/parweb/leverage-dev-rules | 200 | 0.714299 |
-| https://github.com/parweb/studio-starter | 200 | 0.686274 |
-| https://github.com/parweb/god-flight-recorder | 200 | 0.644323 |
-| https://parweb.github.io/landing-copy-grader/ | 200 | 0.090371 |
-| https://parweb.github.io/claude-swarm-starter/ | 200 | 0.109628 |
-| https://parweb.github.io/mcp-ai-slop-checker/ | 200 | 0.062443 |
-| https://parweb.github.io/leverage-dev-rules/ | 200 | 0.068672 |
-| https://parweb.github.io/studio-starter/ | 200 | 0.063536 |
-| https://bsky.app/profile/parweb.bsky.social | 200 | 0.203319 |
-| https://njump.me/npub1htrdcxp9gvdgjxxy8lzweqpa8h0s98f7g4zvhldgm7aw7k8nywcstw7wpx | 403 | 0.225813 |
-| https://gist.github.com/parweb | 200 | 1.280836 |
+| https://1h-money-store.vercel.app/ | 200 | 0.227726 |
+| https://1h-money-store.vercel.app/sounds-ai | 200 | 0.121267 |
+| https://1h-money-store.vercel.app/grader | 200 | 0.152569 |
+| https://1h-money-store.vercel.app/live | 200 | 0.137344 |
+| https://1h-money-store.vercel.app/leaderboard | 200 | 0.242191 |
+| https://1h-money-store.vercel.app/operator | 200 | 0.156505 |
+| https://1h-money-store.vercel.app/affiliate | 200 | 0.188888 |
+| https://1h-money-store.vercel.app/free | 200 | 0.185584 |
+| https://1h-money-store.vercel.app/tools | 200 | 0.113187 |
+| https://1h-money-store.vercel.app/compare | 200 | 0.115988 |
+| https://1h-money-store.vercel.app/faq | 200 | 0.309123 |
+| https://1h-money-store.vercel.app/sitemap.xml | 200 | 0.203308 |
+| https://github.com/parweb/mcp-ai-slop-checker | 200 | 0.904310 |
+| https://github.com/parweb/landing-copy-grader | 200 | 1.020005 |
+| https://github.com/parweb/claude-swarm-starter | 200 | 1.036418 |
+| https://github.com/parweb/leverage-dev-rules | 200 | 0.774148 |
+| https://github.com/parweb/studio-starter | 200 | 0.758790 |
+| https://github.com/parweb/god-flight-recorder | 200 | 1.004210 |
+| https://parweb.github.io/landing-copy-grader/ | 200 | 0.157297 |
+| https://parweb.github.io/claude-swarm-starter/ | 200 | 0.151939 |
+| https://parweb.github.io/mcp-ai-slop-checker/ | 200 | 0.138523 |
+| https://parweb.github.io/leverage-dev-rules/ | 200 | 0.142146 |
+| https://parweb.github.io/studio-starter/ | 200 | 0.118924 |
+| https://bsky.app/profile/parweb.bsky.social | 200 | 0.548601 |
+| https://njump.me/npub1htrdcxp9gvdgjxxy8lzweqpa8h0s98f7g4zvhldgm7aw7k8nywcstw7wpx | 403 | 0.110948 |
+| https://gist.github.com/parweb | 200 | 1.533180 |
 
 STATUT: tous les liens repondent 200
