@@ -1,6 +1,6 @@
 # PR-STATUS — généré par pr-watch.yml
 
-Dernière mise à jour: 2026-09-20T11:31Z — run 35508065652
+Dernière mise à jour: 2026-09-20T16:12Z — run 35521964727
 
 ## PRs ouvertes (auteur parweb, repos externes)
 
@@ -9,7 +9,6 @@ Dernière mise à jour: 2026-09-20T11:31Z — run 35508065652
 | [punkpeye/awesome-mcp-servers#10875](https://github.com/punkpeye/awesome-mcp-servers/pull/10875) | Add parweb/mcp-ai-slop-checker to Other Tools and Integrations 🤖🤖🤖 | 2026-09-15T22:48:16Z |
 | [eudk/awesome-ai-tools#463](https://github.com/eudk/awesome-ai-tools/pull/463) | Add two offline AI-writing checkers to Additional AI and Productivity  | 2026-07-30T14:39:26Z |
 | [wedow/ticket#1](https://github.com/wedow/ticket/pull/1) | feat: Add shell completion support for Bash and Zsh | 2026-07-25T15:20:19Z |
-| [aliammari1/awesome-ai-tools#137](https://github.com/aliammari1/awesome-ai-tools/pull/137) | Add Does My Text Sound AI? to Writing Assistants | 2026-07-25T02:54:15Z |
 | [ninjasort/awesome-marketing#56](https://github.com/ninjasort/awesome-marketing/pull/56) | Add two free copy-checking tools to Landing Pages and Writing Tools | 2026-07-25T02:49:29Z |
 | [eibrahim/landing-pages-resources#16](https://github.com/eibrahim/landing-pages-resources/pull/16) | Add Landing Copy Grader to User Experience, Testing, and Optimization  | 2026-07-25T02:47:31Z |
 | [preetmishra/awesome-bootstrapped-software#18](https://github.com/preetmishra/awesome-bootstrapped-software/pull/18) | Add Does My Text Sound AI? to Marketing | 2026-07-25T00:36:05Z |
@@ -25,9 +24,9 @@ Dernière mise à jour: 2026-09-20T11:31Z — run 35508065652
 
 | PR | état | titre |
 |---|---|---|
+| [aliammari1/awesome-ai-tools#137](https://github.com/aliammari1/awesome-ai-tools/pull/137) | closed | Add Does My Text Sound AI? to Writing Assistants |
 
 ## Commentaires récents sur nos PRs ouvertes (réponse requise ?)
 
-- aliammari1/awesome-ai-tools#137 — 2 commentaire(s) — https://github.com/aliammari1/awesome-ai-tools/pull/137
 - punkpeye/awesome-mcp-servers#10875 — 10 commentaire(s) — https://github.com/punkpeye/awesome-mcp-servers/pull/10875
 - anvaka/ngraph.graph#44 — 1 commentaire(s) — https://github.com/anvaka/ngraph.graph/pull/44
