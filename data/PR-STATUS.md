@@ -1,6 +1,6 @@
 # PR-STATUS — généré par pr-watch.yml
 
-Dernière mise à jour: 2026-09-26T21:14Z — run 36272251599
+Dernière mise à jour: 2026-09-27T05:23Z — run 36297078835
 
 ## PRs ouvertes (auteur parweb, repos externes)
 
@@ -24,7 +24,6 @@ Dernière mise à jour: 2026-09-26T21:14Z — run 36272251599
 
 | PR | état | titre |
 |---|---|---|
-| [aliammari1/awesome-ai-tools#137](https://github.com/aliammari1/awesome-ai-tools/pull/137) | closed | Add Does My Text Sound AI? to Writing Assistants |
 
 ## Commentaires récents sur nos PRs ouvertes (réponse requise ?)
 
