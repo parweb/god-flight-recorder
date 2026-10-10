@@ -1,6 +1,6 @@
 # PR-STATUS — généré par pr-watch.yml
 
-Dernière mise à jour: 2026-10-09T22:42Z — run 38000652536
+Dernière mise à jour: 2026-10-10T05:59Z — run 38029354117
 
 ## PRs ouvertes (auteur parweb, repos externes)
 
@@ -28,4 +28,5 @@ Dernière mise à jour: 2026-10-09T22:42Z — run 38000652536
 ## Commentaires récents sur nos PRs ouvertes (réponse requise ?)
 
 - punkpeye/awesome-mcp-servers#10875 — 10 commentaire(s) — https://github.com/punkpeye/awesome-mcp-servers/pull/10875
+- wedow/ticket#1 — 1 commentaire(s) — https://github.com/wedow/ticket/pull/1
 - anvaka/ngraph.graph#44 — 1 commentaire(s) — https://github.com/anvaka/ngraph.graph/pull/44
