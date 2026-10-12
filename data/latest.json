@@ -1,5 +1,5 @@
 {
-  "ts": "2026-10-12T07:16:14Z",
+  "ts": "2026-10-12T17:45:58Z",
   "repos": {
     "parweb/mcp-ai-slop-checker": {
       "stars": 0,
@@ -76,10 +76,10 @@
       "updated_at": "2026-07-25T15:03:41Z"
     },
     "preetmishra/awesome-bootstrapped-software#18": {
-      "state": "open",
+      "state": "closed",
       "merged": false,
-      "comments": 0,
-      "updated_at": "2026-07-25T00:36:05Z"
+      "comments": 1,
+      "updated_at": "2026-10-12T15:52:47Z"
     },
     "GetBindu/awesome-claude-code-and-skills#129": {
       "state": "closed",
