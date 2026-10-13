@@ -1,6 +1,6 @@
 # PR-STATUS — généré par pr-watch.yml
 
-Dernière mise à jour: 2026-10-12T15:36Z — run 38271518050
+Dernière mise à jour: 2026-10-13T00:46Z — run 38328909446
 
 ## PRs ouvertes (auteur parweb, repos externes)
 
@@ -11,7 +11,6 @@ Dernière mise à jour: 2026-10-12T15:36Z — run 38271518050
 | [wedow/ticket#1](https://github.com/wedow/ticket/pull/1) | feat: Add shell completion support for Bash and Zsh | 2026-07-25T15:20:19Z |
 | [ninjasort/awesome-marketing#56](https://github.com/ninjasort/awesome-marketing/pull/56) | Add two free copy-checking tools to Landing Pages and Writing Tools | 2026-07-25T02:49:29Z |
 | [eibrahim/landing-pages-resources#16](https://github.com/eibrahim/landing-pages-resources/pull/16) | Add Landing Copy Grader to User Experience, Testing, and Optimization  | 2026-07-25T02:47:31Z |
-| [preetmishra/awesome-bootstrapped-software#18](https://github.com/preetmishra/awesome-bootstrapped-software/pull/18) | Add Does My Text Sound AI? to Marketing | 2026-07-25T00:36:05Z |
 | [steven2358/awesome-generative-ai#1112](https://github.com/steven2358/awesome-generative-ai/pull/1112) | Add 'Does My Text Sound AI?' to Discoveries > Writing assistants | 2026-07-25T00:21:53Z |
 | [e2b-dev/awesome-ai-agents#1306](https://github.com/e2b-dev/awesome-ai-agents/pull/1306) | Add Claude Swarm Starter | 2026-07-25T00:18:58Z |
 | [ErickWendel/fluentsql-jest-tdd-yt#2](https://github.com/ErickWendel/fluentsql-jest-tdd-yt/pull/2) | implement groupBy feature | 2022-10-31T16:43:25Z |
