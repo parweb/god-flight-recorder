@@ -1,6 +1,6 @@
 # PR-STATUS — généré par pr-watch.yml
 
-Dernière mise à jour: 2026-10-18T15:56Z — run 39142696031
+Dernière mise à jour: 2026-10-18T20:50Z — run 39165155761
 
 ## PRs ouvertes (auteur parweb, repos externes)
 
@@ -23,9 +23,11 @@ Dernière mise à jour: 2026-10-18T15:56Z — run 39142696031
 
 | PR | état | titre |
 |---|---|---|
+| [preetmishra/awesome-bootstrapped-software#18](https://github.com/preetmishra/awesome-bootstrapped-software/pull/18) | closed | Add Does My Text Sound AI? to Marketing |
 
 ## Commentaires récents sur nos PRs ouvertes (réponse requise ?)
 
 - punkpeye/awesome-mcp-servers#10875 — 10 commentaire(s) — https://github.com/punkpeye/awesome-mcp-servers/pull/10875
+- e2b-dev/awesome-ai-agents#1306 — 1 commentaire(s) — https://github.com/e2b-dev/awesome-ai-agents/pull/1306
 - wedow/ticket#1 — 1 commentaire(s) — https://github.com/wedow/ticket/pull/1
 - anvaka/ngraph.graph#44 — 1 commentaire(s) — https://github.com/anvaka/ngraph.graph/pull/44
