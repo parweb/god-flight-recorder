@@ -1,6 +1,6 @@
 # PR-STATUS — généré par pr-watch.yml
 
-Dernière mise à jour: 2026-10-18T20:50Z — run 39165155761
+Dernière mise à jour: 2026-10-19T04:49Z — run 39201373686
 
 ## PRs ouvertes (auteur parweb, repos externes)
 
@@ -23,7 +23,6 @@ Dernière mise à jour: 2026-10-18T20:50Z — run 39165155761
 
 | PR | état | titre |
 |---|---|---|
-| [preetmishra/awesome-bootstrapped-software#18](https://github.com/preetmishra/awesome-bootstrapped-software/pull/18) | closed | Add Does My Text Sound AI? to Marketing |
 
 ## Commentaires récents sur nos PRs ouvertes (réponse requise ?)
 
