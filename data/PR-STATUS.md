@@ -1,6 +1,6 @@
 # PR-STATUS — généré par pr-watch.yml
 
-Dernière mise à jour: 2026-10-20T17:15Z — run 39464399417
+Dernière mise à jour: 2026-10-20T21:41Z — run 39502337241
 
 ## PRs ouvertes (auteur parweb, repos externes)
 
