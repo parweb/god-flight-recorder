@@ -1,12 +1,12 @@
 # PR-STATUS — généré par pr-watch.yml
 
-Dernière mise à jour: 2026-10-23T04:58Z — run 39903219720
+Dernière mise à jour: 2026-10-23T11:46Z — run 39948381633
 
 ## PRs ouvertes (auteur parweb, repos externes)
 
 | PR | titre | maj |
 |---|---|---|
-| [punkpeye/awesome-mcp-servers#10875](https://github.com/punkpeye/awesome-mcp-servers/pull/10875) | Add parweb/mcp-ai-slop-checker to Other Tools and Integrations 🤖🤖🤖 | 2026-10-09T12:41:13Z |
+| [punkpeye/awesome-mcp-servers#10875](https://github.com/punkpeye/awesome-mcp-servers/pull/10875) | Add parweb/mcp-ai-slop-checker to Other Tools and Integrations 🤖🤖🤖 | 2026-10-23T08:40:39Z |
 | [eudk/awesome-ai-tools#463](https://github.com/eudk/awesome-ai-tools/pull/463) | Add two offline AI-writing checkers to Additional AI and Productivity  | 2026-07-30T14:39:26Z |
 | [wedow/ticket#1](https://github.com/wedow/ticket/pull/1) | feat: Add shell completion support for Bash and Zsh | 2026-07-25T15:20:19Z |
 | [ninjasort/awesome-marketing#56](https://github.com/ninjasort/awesome-marketing/pull/56) | Add two free copy-checking tools to Landing Pages and Writing Tools | 2026-07-25T02:49:29Z |
@@ -26,7 +26,7 @@ Dernière mise à jour: 2026-10-23T04:58Z — run 39903219720
 
 ## Commentaires récents sur nos PRs ouvertes (réponse requise ?)
 
-- punkpeye/awesome-mcp-servers#10875 — 10 commentaire(s) — https://github.com/punkpeye/awesome-mcp-servers/pull/10875
+- punkpeye/awesome-mcp-servers#10875 — 11 commentaire(s) — https://github.com/punkpeye/awesome-mcp-servers/pull/10875
 - e2b-dev/awesome-ai-agents#1306 — 1 commentaire(s) — https://github.com/e2b-dev/awesome-ai-agents/pull/1306
 - wedow/ticket#1 — 1 commentaire(s) — https://github.com/wedow/ticket/pull/1
 - anvaka/ngraph.graph#44 — 1 commentaire(s) — https://github.com/anvaka/ngraph.graph/pull/44
