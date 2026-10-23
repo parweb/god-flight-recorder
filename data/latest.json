@@ -1,5 +1,5 @@
 {
-  "ts": "2026-10-23T04:35:44Z",
+  "ts": "2026-10-23T09:56:38Z",
   "repos": {
     "parweb/mcp-ai-slop-checker": {
       "stars": 0,
@@ -42,8 +42,8 @@
     "punkpeye/awesome-mcp-servers#10875": {
       "state": "open",
       "merged": false,
-      "comments": 10,
-      "updated_at": "2026-10-09T12:41:13Z"
+      "comments": 11,
+      "updated_at": "2026-10-23T08:40:39Z"
     },
     "steven2358/awesome-generative-ai#1112": {
       "state": "open",
