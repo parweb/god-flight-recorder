@@ -1,5 +1,5 @@
 {
-  "ts": "2026-10-28T08:18:19Z",
+  "ts": "2026-10-28T15:56:08Z",
   "repos": {
     "parweb/mcp-ai-slop-checker": {
       "stars": 0,
@@ -101,9 +101,9 @@
     "/compare": 200
   },
   "bluesky": {
-    "followers": null,
-    "follows": null,
-    "posts": null
+    "followers": 15,
+    "follows": 41,
+    "posts": 123
   },
   "nostr": null,
   "whattheai_listing_http": 200
