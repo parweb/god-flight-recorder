@@ -1,5 +1,5 @@
 {
-  "ts": "2026-11-01T19:31:56Z",
+  "ts": "2026-11-01T23:30:18Z",
   "repos": {
     "parweb/mcp-ai-slop-checker": {
       "stars": 0,
@@ -106,5 +106,5 @@
     "posts": 123
   },
   "nostr": null,
-  "whattheai_listing_http": 200
+  "whattheai_listing_http": 0
 }
